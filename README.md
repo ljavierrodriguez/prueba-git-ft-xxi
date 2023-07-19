@@ -1,0 +1,22 @@
+### Comandos Git
+
+- Iniciar Proyecto: git init
+- Ver estado del proyecto: git status
+- Agregar archivo: 
+    - Todo: git add -A
+    - Parcial: git add .
+    - Archivo: git add <file>
+    - Patron: git add * ej:  git add *.html
+- Guardar los cambios de manera local:
+    - Guardar: git commit -m “mensaje”
+- Ver guardado (commits): git log
+- Reset commit: 
+    - git reset —soft HEAD~1 (eliminar el ultimo commit pero mantiene los cambios realizados)
+    - git reset —hard HEAD~1 (elimina el ultimo commit y los cambios realizados)
+- Agregar el repositorio remoto: git remote add <name> <url_repositorio>
+- Subir cambios al repositorio : git push <remote> <branch>
+- Bajar cambios al repositorio (local): git pull <remote> <branch>
+- Bajar todas las ramas(branches): git fetch
+- Cambiar de Rama (branch): git checkout <branch_name>
+- Crear una nueva rama: git branch <branch_name>
+- Crear y activar una rama (branch): git checkout -b <branch_name>
